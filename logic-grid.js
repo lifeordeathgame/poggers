@@ -166,7 +166,7 @@ Hero.prototype._collide = function (dirx, diry) {
 Game.load = function () {
     return [
         Loader.loadImage('tiles', 'tiles.png'),
-        Loader.loadImage('hero', 'character.png')
+        Loader.loadImage('hero', 'knight.png')
     ];
 };
 
