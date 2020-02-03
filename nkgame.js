@@ -142,7 +142,7 @@ function updateGameArea() {
     
     myGameArea.clear();
     
-    z = 32;
+    z = 60;
     if (myGameArea.frameNo == 1 || everyinterval(z)) {
 		var rannum = Math.floor((Math.random())* 100)+1;
         	x = myGameArea.canvas.width;
